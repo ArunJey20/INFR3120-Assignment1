@@ -1,0 +1,95 @@
+/* for screens between 481px and 960px */
+
+body {
+    background-color: #0b2038;
+    color: white;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Styles the background and text */
+
+}
+
+.Nav-Bar {
+    background-color: #0b1426;
+    padding: 15px 20px;
+    /* change spacing around nav bar and background colour*/
+
+}
+
+.Nav-Bar header {
+    float: left;
+    /* move the text to the left */
+
+}
+
+.Nav-Bar nav {
+    float: right;
+    /* Move links to right */
+}
+
+.clear {
+    clear: both;
+    /* resets the float so anything below is not afftected */
+
+}
+
+main {
+    padding: 40px 25px;
+    text-align: left;
+    /* Adds spacing around the main content */
+
+}
+
+main img {
+    width: 40%;
+    float: right;
+    height: auto;
+    /*moves image of laptop to the right */
+
+}
+
+main section {
+    width: 55%;
+    float: left;
+    /* moves the text to the left */
+
+}
+.Nav-Bar nav a {
+    color: #93c5fd;
+    margin-left: 10px;
+    /* Changes nav bar link colours and makes spacing*/
+
+}
+
+footer {
+    background-color: #0f172a;
+    text-align: center;
+    padding: 20px;
+    color: #e2e8f0;
+    border-top: 1px solid #334155;
+    /* Styles the footer by changing background,centering the text and creating padding*/
+
+}
+
+.Media {
+    width: 40%;
+    float: right;
+    margin-left: 20px;
+    /* moves media to right and controls the size*/
+
+}
+
+.Media video {
+    width: 100%;
+    height: auto;
+    /* Makes the video fit inside the media container */
+
+}
+
+.Media img {
+    width: 100%;
+    height: auto;
+     /* Makes the About Me photo fit the media container */
+
+}

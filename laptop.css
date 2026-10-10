@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-/* Allows the footer to be positioned at the bottom */
 body {
     background-color: #0b2038;
     color: #ffffff;
@@ -13,9 +12,11 @@ body {
     box-sizing: border-box;
     padding-bottom: 120px;
 }
+
 /* Styles the navigation bar */
 .Nav-Bar {
-    background-color: #0b1426;
+    /* Creates a dark blue gradient across the navigation bar */
+    background: linear-gradient(to right, #0b1426, #1d4ed8);
     padding: 20px 40px;
 }
 
@@ -52,7 +53,7 @@ nav {
 }
 
 nav a {
-    color: #60a5fa;
+    color: white;
     text-decoration: none;
     /*removes the underline from links*/
     margin: 15px;
@@ -61,67 +62,70 @@ nav a {
 main {
     background-color: #0b2038;
     text-align: left;
-    padding: 80px 50px 200px 50px;
+    padding: 80px 50px;
+    /*styles the main content*/
 }
+
 
 main img {
     width: 40%;
     float: right;
     border: 2px solid #60a5fa;
+    /*adds the image on the right with a border around it*/
 }
 
 main section {
     width: 55%;
     float: left;
+    /*adds the text on the left for the homepage*/
 }
 
 main h1 {
-    font-size: 42px;
+    font-size: 40px;
     color: #ffffff;
+    margin-bottom: 40px;
+    /*changing the colour and size of text*/
 }
 
 main h3 {
     font-size: 20px;
     color: #93c5fd;
+    margin-bottom: 40px;
+    /*changing the colour and size of text*/
+
 }
 
 
 
 footer {
-    background-color: #0f172a;
+    /* Creates a diagonal gradient for the footer */
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
     text-align: center;
     padding: 20px;
     color: #e2e8f0;
     border-top: 1px solid #334155;
-    
+    /* Styles the footer by making the background dark blue, and centering the text*/
 }
 
-.About-Media {
+.Media {
     float: right;
     width: 35%;
     margin-left: 30px;
+    /*moves about me media on right with space on the left*/
 }
 
-.About-Media img {
+.Media img {
     width: 100%;
 }
 
-.About-Media video {
+.Media video {
     width: 100%;
-}
-
-
-
-main article {
-    background-color: #0f172a;
-    border: 1px solid #59a6ff;
-    padding: 25px;
-    margin: 20px 40px;
-    border-radius: 10px;
 }
 
 main article h2 {
     color: #59a6ff;
+    /* Makes project headings blue */
+
 }
 
 main article img {
@@ -130,10 +134,14 @@ main article img {
     height: auto;
     display: block;
     margin: 20px auto;
+    /* Sets the image size at width being 60%, and keeping its proportions*/
+
 }
 
 main article a {
     color: #93c5fd;
+        /* changing colour of link */
+
 }
 
 
@@ -143,26 +151,24 @@ main article {
     padding: 25px;
     margin: 20px 40px;
     border-radius: 10px;
+    /* creates a border and styles projects */
+
 }
 
 .projects-page section {
     float: none;
     width: 100%;
+    /* uses full available width */
 }
 
-#network-image {
-    width: 500px;
-    height: auto;
-    float: none;
-    display: block;
-    margin: 20px auto;
-}
 
 #network-image {
     float: right;
     width: 40%;
     height: auto;
     margin: 0 0 20px 30px;
+    /* moves image to right and the width 40% of the webpage */
+
 }
 
 .contact-page a {
@@ -171,24 +177,38 @@ main article {
 
 .contact-page a:hover {
     color: white;
+    /* Makes link turn white when hovered over with mouse */
+
 }
 
 /* Contact form styling */
 
 .contact-page form {
     margin: 20px;
+    /* Adds spacing around form */
+
 }
 
 .contact-page label {
     display: block;
+    /* Makes each form label start on a new line */
+
 }
 
 .contact-page input,
 .contact-page textarea {
     padding: 10px;
     border-radius: 5px;
+    /* creates spacing and rounds the textbox corners */
+
 }
 
 .contact-page input:hover {
     background: lightblue;
+    /* makes the background colour for email change to light blue when mouse hovers over it */
+}
+
+main li {
+    margin-bottom: 20px;
+    /* creates space between bullet points */
 }
