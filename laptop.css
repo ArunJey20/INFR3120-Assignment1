@@ -110,3 +110,58 @@ footer {
 .About-Media video {
     width: 100%;
 }
+
+
+
+main article {
+    background-color: #0f172a;
+    border: 1px solid #59a6ff;
+    padding: 25px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+
+main article h2 {
+    color: #59a6ff;
+}
+
+main article img {
+    width: 60%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+main article a {
+    color: #93c5fd;
+}
+
+
+main article {
+    background-color: #0f172a;
+    border: 3px #60a5fa;
+    padding: 25px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+
+.projects-page section {
+    float: none;
+    width: 100%;
+}
+
+#network-image {
+    width: 500px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 20px auto;
+}
+
+#network-image {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 0 0 20px 30px;
+}
