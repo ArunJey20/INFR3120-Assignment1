@@ -1,0 +1,110 @@
+<!--signals the web page to use HTML5 Standards-->
+<!DOCTYPE html>
+<html lang="en">
+<!--tells web page language is in english-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--allows for a wide variety of charecters to be used.-->
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+
+    + <title>
+        Arunjan's Portfolio
+    </title>
+    <link href="laptop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+    <!-- laptop css styling-->
+
+    <link href="tablet.css" rel="stylesheet" type="text/css"
+        media="only screen and (min-width:481px) and (max-width:960px)">
+    <!-- tablet css styling-->
+
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <!-- mobile css styling-->
+
+
+</head>
+
+<body>
+    <div class="Nav-Bar">
+        <header>
+            <!--Displaying PORTFOLIO TEXT-->
+            <h1>PORTFOLIO</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <!--Link to redirect to homepage-->
+
+            <a href="AboutMe.html">About Me</a>
+            <!--Link to redirect to about me-->
+
+            <a href="Projects.html">Projects</a>
+            <!--Link to redirect to projects-->
+
+            <a href="Contact.html">Contact</a>
+            <!--Link to redirect to Contact-->
+
+
+        </nav>
+        <!-- resets float -->
+        <div class="clear"></div>
+    </div>
+
+    <main class="contact-page">
+        <!-- Contact page's info -->
+
+        <section>
+            <h1>Contact Me</h1>
+
+            <p>
+                Use my email to get into contact with me for any inquries.
+
+            </p>
+            <!--DISPLAYING INFORMATION-->
+            <h2>My Contact Information</h2>
+
+            <p>
+                Email:
+                <a href="mailto:arunjan.jeyapalan@ontariotechu.net">
+                    arunjan.jeyapalan@ontariotechu.net
+                    <!--link to email-->
+                </a>
+            </p>
+
+            <h2>Message</h2>
+
+            <form action="#" method="get">
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <!-- checks if the email input is valid -->
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <!-- prompts user to write a message -->
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit">
+                    <!-- Submit button sends the form data using the GET method -->
+                </p>
+            </form>
+        </section>
+    </main>
+
+
+
+    <div class="clear"></div>
+    <!--resets format-->
+
+    <footer>
+        <p> Email: arunjan.jeyapalan@ontariotechu.net</p>
+        <p>&copy;2026 Arunjan Jeyapalan. All rights reserved.</p>
+    </footer>
+    <!--creating a footer to add my email, name and copyright. -->
+</body>
+
+
+</html>

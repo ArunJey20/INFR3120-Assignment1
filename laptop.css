@@ -61,8 +61,7 @@ nav a {
 main {
     background-color: #0b2038;
     text-align: left;
-    padding: 80px 50px;
-    
+    padding: 80px 50px 200px 50px;
 }
 
 main img {
@@ -164,4 +163,32 @@ main article {
     width: 40%;
     height: auto;
     margin: 0 0 20px 30px;
+}
+
+.contact-page a {
+    color: #5b9dff;
+}
+
+.contact-page a:hover {
+    color: white;
+}
+
+/* Contact form styling */
+
+.contact-page form {
+    margin: 20px;
+}
+
+.contact-page label {
+    display: block;
+}
+
+.contact-page input,
+.contact-page textarea {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-page input:hover {
+    background: lightblue;
 }
